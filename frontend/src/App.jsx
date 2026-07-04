@@ -1,7 +1,7 @@
 
 import { BrowserRouter as Router,  Route, Routes } from 'react-router'
 import CreatPost from './pages/CreatPost.jsx'
-import Feed from './pages/feed.jsx'
+import Feed from './pages/Feed.jsx'
 
 function App() {
 
