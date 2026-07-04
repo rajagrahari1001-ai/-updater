@@ -41,7 +41,7 @@ const CreatPost = () => {
        onSubmit={handleSubmit}
        
       >
-        <div className="lg:w-1/3  h-full flex flex-col  items-center justify-center gap-4 mx-4 border-[1.5px] 
+        <div className="lg:w-1/3  lg:h-full h-[75%] flex flex-col  items-center justify-center gap-4 mx-4 border-[1.5px] 
          border-purple-600 rounded-2xl ">
           <input
             type="file"
@@ -88,7 +88,7 @@ const CreatPost = () => {
           
         </div>
 
-        <div className="lg:w-2/3 bg-white flex flex-col p-5 lg:gap-6 gap-2 lg:items-center lg:justify-center  ">
+        <div className="lg:w-2/3 lg:h-full h-auto bg-white flex flex-col p-5 lg:gap-6 gap-2 lg:items-center lg:justify-center  ">
           <h4>Caption</h4>
           <input
             className=" border border-gray-500 w-full rounded-xl py-1 px-2 outline-none "
