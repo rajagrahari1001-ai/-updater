@@ -5,8 +5,9 @@ import { useNavigate } from "react-router";
 
 const Feed = () => {
   const [posts, setPost] = useState([])
+
   useEffect(() => {
-    axios.get("http://localhost:3000/posts")
+    axios.get(`${import.meta.env.VITE_API_URL}posts`)
     .then((res)=>{
       setPost(res.data.posts)
     })

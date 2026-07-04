@@ -11,7 +11,7 @@ const CreatPost = () => {
    const handleSubmit = async (e)=>{
     e.preventDefault()
     const formData = new FormData(e.target)
-    await axios.post("http://localhost:3000/create-post",formData )
+    await axios.post(`${import.meta.env.VITE_API_URL}create-post`,formData )
     .then((res)=>{
       navigate("/");
       alert("post created successfully")
